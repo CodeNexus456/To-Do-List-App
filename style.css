@@ -5,11 +5,20 @@
 }
 
 body {
-  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:rgba(127, 255, 212, 0.701);
+  text-align: center;
+
+  background-color: rgba(29, 138, 201, 0.77);
+}
+
+.nav {
+  margin-top: 20px;
+}
+h2 {
+  color: white;
+  font-size: 2rem;
 }
 
 .nav input{
@@ -19,8 +28,13 @@ body {
   font-size: 1rem;
   padding: 0 0 0 10px;
   border-radius: 0.5rem;
+  border: 1px solid blue;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.225);
 }
-
+.nav input:hover {
+  box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.458);
+}
 
 .nav button{
   margin-top: 20px;
@@ -30,8 +44,14 @@ body {
   padding: 0 0 0 10px;
   border-radius: 0.5rem;
   cursor: pointer;
+  border: 1px solid blue;
+  background-color: rgba(127, 255, 212, 0.537);
+  transition: 0.5s;
 }
 
+.nav button:hover {
+  transform: scale(1.03);
+}
 ul {
   margin-top: 20px;
   margin-left: 20px;
@@ -40,5 +60,5 @@ li{
   height: 30px;
   width: 300px;
   margin-top: 20px;
-  /* background-color: red; */
+  color: white;
 }
