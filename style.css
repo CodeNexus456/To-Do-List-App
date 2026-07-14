@@ -9,6 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color:rgba(127, 255, 212, 0.701);
 }
 
 .nav input{
@@ -38,5 +39,6 @@ ul {
 li{
   height: 30px;
   width: 300px;
+  margin-top: 20px;
   /* background-color: red; */
 }
